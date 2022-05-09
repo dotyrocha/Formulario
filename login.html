@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div class="box">
+            <form action="action_page.php" method="get">
+                <fieldset>
+                    <legend><b>Login</b></legend>
+                    
+                    <br>
+                    
+                    <div class="inputBox">
+                        <label for="email" class="labelinput">Email</label>
+                        <input type="email" id="email" class="InputUser" required>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <div class="inputBox">
+                        <label for="senha" class="labelinput">Senha</label>
+                        <input type="password" id="senha" class="InputUser" required>
+                    </div>
+                    
+                    <br><br><br>                    
+                    
+                    <input type="submit" id="submit" class="submit">
+                
+                    <p>Ainda não tem cadastro ?</p>
+                
+                    <a href="formulario.html">Crie agora</a>     
+                </fieldset>
+            </form>    
+        </div>   
+        
+        <script src="login.js" type="module"></script>
+    </body>
+</html>
